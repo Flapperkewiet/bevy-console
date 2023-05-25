@@ -345,7 +345,7 @@ pub(crate) fn console_ui(
             .resizable(true)
             .show(egui_context.ctx_mut(), |ui| {
                 ui.vertical(|ui| {
-                    let scroll_height = ui.available_height() - 30.0;
+                    let scroll_height = ui.available_height() - 32.0;
 
                     // Scroll area
                     ScrollArea::vertical()
